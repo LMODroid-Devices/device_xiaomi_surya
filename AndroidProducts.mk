@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_surya.mk
+    $(LOCAL_DIR)/lmodroid_surya.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_surya-user \
-    lineage_surya-userdebug \
-    lineage_surya-eng
+    lmodroid_surya-user \
+    lmodroid_surya-userdebug \
+    lmodroid_surya-eng
