@@ -105,7 +105,7 @@ BOARD_MKBOOTIMG_ARGS := --header_version 2
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
     HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 
-TARGET_KERNEL_CONFIG := surya_defconfig
+TARGET_KERNEL_CONFIG := surya_defconfig vendor/debugfs.config
 TARGET_KERNEL_SOURCE := kernel/xiaomi/surya
 
 # LMKD
@@ -175,7 +175,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 TARGET_SCREEN_DENSITY := 440
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2022-12-01
+VENDOR_SECURITY_PATCH := 2023-08-17
 
 # Sepolicy
 TARGET_SEPOLICY_DIR := msmsteppe
