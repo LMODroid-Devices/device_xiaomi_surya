@@ -65,7 +65,6 @@ vendor.audio.feature.usb_offload.enable=true
 vendor.audio.feature.usb_offload_sidetone_volume.enable=false
 vendor.audio.feature.vbat.enable=true
 vendor.audio.feature.wsa.enable=false
-vendor.audio.flac.sw.decoder.24bit=true
 vendor.audio.hal.boot.timeout.ms=20000
 vendor.audio_hal.in_period_size=144
 vendor.audio_hal.period_multiplier=3
@@ -199,10 +198,6 @@ persist.vendor.ims.disableADBLogs=1
 persist.vendor.ims.disableDebugLogs=1
 persist.vendor.ims.disableIMSLogs=1
 persist.vendor.ims.disableQXDMLogs=1
-
-# Media
-debug.stagefright.ccodec=1
-debug.stagefright.omx_default_rank=0
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
