@@ -15,5 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_surya.mk
+    $(LOCAL_DIR)/lmodroid_surya.mk
 
